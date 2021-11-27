@@ -84,7 +84,7 @@ body{
 .box1 {
 	width: 270px;
 	height: 380px;
-	background-image: url(../Icon/komputer.png);
+	background-image: url(Icon/komputer.png);
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: 83px 25px;
@@ -113,7 +113,7 @@ body{
 .box2 {
 	width: 270px;
 	height: 380px;
-	background-image: url(../Icon/tech.png);
+	background-image: url(Icon/tech.png);
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: 83px 25px;
@@ -146,7 +146,7 @@ body{
 .box3 {
 	width: 270px;
 	height: 380px;
-	background-image: url(../Icon/web.png);
+	background-image: url(Icon/web.png);
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: 83px 25px;
@@ -209,7 +209,7 @@ body{
 
 .cr{
 	height: 50px;
-	background-image: url(../Icon/tree.png);
+	background-image: url(Icon/tree.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
