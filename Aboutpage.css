@@ -1,0 +1,266 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header{
+	height: 60px;
+}
+
+.bg {
+	box-shadow: 3px 3px rgba(0,0,0,.25);
+	height: 60px;
+	background: white;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+.brand {
+	width: 30%;
+	float: left;
+	line-height: 60px;
+}
+
+.brand a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #6495ED;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 15px;
+	color: #6495ED;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.container{
+	background-color: #6495ED;
+	height: 600px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.50)
+}
+
+.banner img{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.banner h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+.banner p{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.box1 {
+	width: 270px;
+	height: 380px;
+	background-image: url(../Icon/komputer.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: 83px 25px;
+	position: relative;
+	top: 100px;
+	left: 550px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.70);
+	border-radius: 20px;
+}
+
+.box1 h3{
+	color: #6495ED;
+	text-align: center;
+	line-height: 320px;
+}
+
+.box1 p{
+	margin: 0px 10px 0px 10px;
+	color: grey;
+	text-align: center;
+	position: relative;
+	bottom: 145px;
+}
+
+.box2 {
+	width: 270px;
+	height: 380px;
+	background-image: url(../Icon/tech.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: 83px 25px;
+	background-color: white;
+	position: relative;
+	left: 900px;
+	bottom: 280px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.70);
+	border-radius: 20px;
+}
+
+.box2 h3{
+	color: #6495ED;
+	text-align: center;
+	line-height: 320px;
+}
+
+.box2 ol{
+	margin-left: 35px;
+	margin-right: 10px;
+	color: grey;
+	position: relative;
+	bottom: 145px;
+}
+
+.box2 li{
+	padding-top: 10px;
+}
+
+.box3 {
+	width: 270px;
+	height: 380px;
+	background-image: url(../Icon/web.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: 83px 25px;
+	background-color: white;
+	position: relative;
+	bottom: 660px;
+	left: 200px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.70);
+	border-radius: 20px;
+}
+
+.box3 h3{
+	color: #6495ED;
+	text-align: center;
+	line-height: 320px;
+}
+
+.box3 ol{
+	margin-left: 35px;
+	color: grey;
+	position: relative;
+	bottom: 145px;
+}
+
+.box3 li{
+	padding-top: 10px;
+}
+
+.footer{
+	height: 180px;
+	background-color: #262626;
+	position: relative;
+	top: 400px;
+}
+
+.logo-medsos img{
+	height: 40px;
+	width: 40px;
+	position: relative;
+	top: 50px;
+	left: 410px;
+}
+
+.logo-medsos ul li{
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.lmedsos ul li{
+	display: inline-block;
+	margin-left: 55px;
+}
+.lmedsos a{
+	text-decoration: none;
+	color: grey;
+	position: relative;
+	top: 80px;
+	left: 445px;
+}
+
+.cr{
+	height: 50px;
+	background-image: url(../Icon/tree.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 400px;
+	background-color: #6495ED;
+}
+
+.cr p{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+/* Dekorasi (hover) */
+
+.brand a:hover{
+	color: skyblue;
+	position: relative;
+	top: 2px;
+	right: 2px;
+}
+
+nav a:hover{
+	color: skyblue;
+	position: relative;
+	top: 2px;
+	right: 2px;
+}
+
+.box1:hover{
+	position: relative;
+	top: 85px;
+}
+
+.box2:hover{
+	position: relative;
+	bottom: 295px;
+}
+
+.box3:hover{
+	position: relative;
+	bottom: 675px;
+}
+
+.logo-medsos img:hover{
+	position: relative;
+	top: 45px;
+	left: 415px;
+}
+
+.lmedsos a:hover{
+	color: white;
+}
